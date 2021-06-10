@@ -47,4 +47,6 @@ jobs:
         uses: actions/upload-artifact@v1
         with:
           name: make artiface
-          path: dist Intuiter.exe
+          path: |
+            dist
+            Intuiter.exe
