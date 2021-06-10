@@ -1,4 +1,4 @@
-name: CI/CD to Seonglae Server
+name: Legacy Build
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
       - legacy
 
 jobs:
-  release:
+  legacy:
     runs-on: windows-latest
     steps:
       - name: Checkout to branch
